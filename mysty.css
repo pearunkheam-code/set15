@@ -1,0 +1,115 @@
+
+        /* កំណត់ទម្រង់ទូទៅ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Khmer OS Battambang', 'Segoe UI', sans-serif;
+        }
+
+        /* ពណ៌ផ្ទៃខាងក្រោយនៃវេបសាយ */
+        body {
+            background-color: #f0f2f5;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* ប្រអប់ព័ត៌មានកណ្ដាល */
+        .profile-card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* រូបតំណាង (Avatar) */
+        .avatar {
+            width: 90px;
+            height: 90px;
+            background-color: #e2e8f0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            margin: 0 auto 15px;
+        }
+
+        /* ឈ្មោះរបស់ភារុន */
+        h1 {
+            text-align: center;
+            font-size: 1.6rem;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+
+        /* ជំនាញ និងសាលា */
+        .subtitle {
+            text-align: center;
+            font-size: 0.95rem;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+
+        /* បន្ទាត់ខណ្ឌចែកផ្នែក */
+        hr {
+            border: 0;
+            border-top: 1px solid #eeeeee;
+            margin-bottom: 20px;
+        }
+
+        /* ការរៀបចំអត្ថបទរៀបរាប់ពីជីវិតស្នេហា */
+        .status-box {
+            background-color: #fff5f5;
+            border-left: 4px solid #e53e3e;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #c53030;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        /* ប្លុកព័ត៌មានលម្អិត */
+        .info-group {
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #555555;
+            display: inline-block;
+            width: 120px;
+        }
+
+        .info-value {
+            color: #222222;
+        }
+
+        /* ប៊ូតុងសម្រាប់ចុច */
+        .action-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #0066cc;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 25px;
+            transition: background-color 0.2s;
+        }
+
+        /* ពេលយកកណ្ដុរទៅដាក់លើប៊ូតុង វាដូរពណ៌បន្តិច */
+        .action-button:hover {
+            background-color: #0052a3;
+        }
